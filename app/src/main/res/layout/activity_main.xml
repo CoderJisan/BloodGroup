@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jisan.bloodgroup.MainActivity">
+
+    <CheckBox
+        android:text="O+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="67dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="দয়া করে রক্তের গ্রুপ সিলেক্ট করুন "
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" />
+
+    <CheckBox
+        android:text="O-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox2"
+        android:layout_below="@+id/checkBox"
+        android:layout_alignLeft="@+id/checkBox"
+        android:layout_alignStart="@+id/checkBox" />
+
+    <CheckBox
+        android:text="A+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox3"
+        android:layout_below="@+id/checkBox2"
+        android:layout_alignRight="@+id/checkBox"
+        android:layout_alignEnd="@+id/checkBox" />
+
+    <CheckBox
+        android:text="A-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox4"
+        android:layout_below="@+id/checkBox3"
+        android:layout_alignLeft="@+id/checkBox2"
+        android:layout_alignStart="@+id/checkBox2" />
+
+    <CheckBox
+        android:text="AB+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox5"
+        android:layout_below="@+id/checkBox4"
+        android:layout_alignLeft="@+id/checkBox3"
+        android:layout_alignStart="@+id/checkBox3" />
+
+    <CheckBox
+        android:text="AB-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox6"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/checkBox5"
+        android:layout_alignStart="@+id/checkBox5" />
+
+    <CheckBox
+        android:text="B+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox7"
+        android:layout_below="@+id/checkBox6"
+        android:layout_alignLeft="@+id/checkBox4"
+        android:layout_alignStart="@+id/checkBox4" />
+
+    <CheckBox
+        android:text="B-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox8"
+        android:layout_below="@+id/checkBox7"
+        android:layout_alignLeft="@+id/checkBox7"
+        android:layout_alignStart="@+id/checkBox7" />
+
+    <Button
+        android:text="সাবমিট করুন"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:id="@+id/button"
+        android:layout_below="@+id/checkBox8"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

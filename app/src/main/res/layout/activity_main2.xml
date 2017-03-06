@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jisan.bloodgroup.Main2Activity">
+
+    <TextView
+        android:text="কোন ঠিকানায় রক্ত লাগবে দয়া করে তা উল্লেখ করুন"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:text="ঢাকা"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="39dp"
+        android:id="@+id/checkBox9" />
+
+    <CheckBox
+        android:text="টিটাগাং"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox10"
+        android:layout_below="@+id/checkBox9"
+        android:layout_alignLeft="@+id/checkBox9"
+        android:layout_alignStart="@+id/checkBox9" />
+
+    <CheckBox
+        android:text="রাজশাহী"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox10"
+        android:layout_alignLeft="@+id/checkBox10"
+        android:layout_alignStart="@+id/checkBox10"
+        android:id="@+id/checkBox11" />
+
+    <CheckBox
+        android:text="বরিশাল"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox11"
+        android:layout_alignLeft="@+id/checkBox11"
+        android:layout_alignStart="@+id/checkBox11"
+        android:id="@+id/checkBox12" />
+
+    <CheckBox
+        android:text="খুলনা"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox13"
+        android:layout_below="@+id/checkBox12"
+        android:layout_alignLeft="@+id/checkBox12"
+        android:layout_alignStart="@+id/checkBox12" />
+
+    <CheckBox
+        android:text="সিলেট"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox13"
+        android:layout_alignLeft="@+id/checkBox13"
+        android:layout_alignStart="@+id/checkBox13"
+        android:id="@+id/checkBox14" />
+
+    <CheckBox
+        android:text="রংপুর"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox15"
+        android:layout_below="@+id/checkBox14"
+        android:layout_alignLeft="@+id/checkBox14"
+        android:layout_alignStart="@+id/checkBox14" />
+
+    <Button
+        android:text="নিশ্চিত করুন"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:id="@+id/button2" />
+</RelativeLayout>
